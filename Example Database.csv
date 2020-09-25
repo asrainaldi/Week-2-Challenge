@@ -1,0 +1,26 @@
+Category Table				
+CategoryID	CategoryName			
+1	Fresh Fruit			
+2	Stationery			
+				
+Subcategory Table				
+SubCategoryID	CategoryID	SubCategoryName		
+1	1	Fruit		
+2	2	Materials		
+				
+				
+Product Table				
+SubCategoryID	ProductID	ProductName		
+1	1	Apple		
+1	2	Pears		
+2	3	Pen		
+2	4	Rubber		
+				
+Sales Table				
+SalesID	ProductID	Quantity	UnityPrice	DateOfSale
+1	1	10	0.5	today
+2	2	100	0.45	last month
+3	3	10	1	today
+4	4	100	2	last month
+5	1	10	0.5	today
+6	1	1	0.5	last week
