@@ -1,9 +1,11 @@
 ## README
 
 [SQL queries here](https://github.com/asrainaldi/Week-2-Challenge/blob/master/Main.sql)
-# Week 2 Challenge
 
-## Tasks
+## What was the challenge?
+### Week 2 Challenge
+
+### Tasks
 
 For this week's challenge, you are tasked with meeting the following requirements:
 
@@ -40,12 +42,12 @@ For this week's challenge, you are tasked with meeting the following requirement
 
 * Populate the tables with dummy data
 * Create an ERD Diagram to show the relationships between the tables
-## Write queries for the following: 
+### Write queries for the following: 
     1. The most popular product sold on a specific date.
     2. The most popular product sold last week. 
     3. The most popular product sold on a specific month.
     
-## Stretch Goals
+### Stretch Goals
     4. The most popular subcategory for a specific date.
     5. The most popular subcategory for last week.
     6. The most popular subcategory for a specific month.
