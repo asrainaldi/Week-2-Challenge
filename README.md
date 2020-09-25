@@ -2,7 +2,7 @@
 
 ### [SQL queries here](https://github.com/asrainaldi/Week-2-Challenge/blob/master/Main.sql)
 ### [ERD DIagram here](https://github.com/asrainaldi/Week-2-Challenge/blob/master/ERD.PNG)
-
+### [Example database here](https://github.com/asrainaldi/Week-2-Challenge/blob/master/Example%20Database.csv)
 
 ## What was the challenge?
 ### Week 2 Challenge
