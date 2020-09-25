@@ -1,4 +1,5 @@
 # Week-2-Challenge
+Definition of popularity = the most items bought - e.g. not the frequency.
 
     1). The most popular product sold on a specific date.
 	
