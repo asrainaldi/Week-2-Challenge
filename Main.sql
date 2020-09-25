@@ -3,7 +3,7 @@ Definition of popularity = the most items bought - e.g. not the frequency :)
 
     1). The most popular product sold on a specific date.
 	
-SELECT ProductName
+SELECT ProductName, Quantity
 FROM (SELECT sum(s.Quantity) as Quantity, s.ProductID, s.DateOfSale, p.ProductName
 FROM shop.sales s, Product p
 where s.ProductID = p.ProductID
@@ -16,7 +16,7 @@ and DateOfSale = "2020-08-01";
 
     2. The most popular product sold last week. 
 
-SELECT ProductName
+SELECT ProductName, Quantity
 FROM (SELECT sum(s.Quantity) as Quantity, s.ProductID, s.DateOfSale, p.ProductName
 FROM shop.sales s, Product p
 where YEARWEEK(DateOfSale) = YEARWEEK(NOW() - INTERVAL 1 WEEK)
@@ -29,7 +29,7 @@ group by s.ProductID) as sales);
 
     3. The most popular product sold on a specific month.
 
-SELECT ProductName
+SELECT ProductName, Quantity
 FROM (SELECT sum(s.Quantity) as Quantity, s.ProductID, s.DateOfSale, p.ProductName
 FROM shop.sales s, shop.product p
 where  s.ProductID = p.ProductID
