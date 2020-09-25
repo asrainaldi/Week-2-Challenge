@@ -1,12 +1,12 @@
 Category Table				
-CategoryID	CategoryName			
-1	Fresh Fruit			
-2	Stationery			
+CategoryID  CategoryName			
+1  Fresh Fruit			
+2  Stationery			
 				
 Subcategory Table				
-SubCategoryID	CategoryID	SubCategoryName		
-1	1	Fruit		
-2	2	Materials		
+SubCategoryID  CategoryID  SubCategoryName		
+1  1  Fruit		
+2  2  Materials		
 				
 				
 Product Table				
