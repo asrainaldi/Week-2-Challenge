@@ -1,6 +1,8 @@
 ## README
 
-[SQL queries here](https://github.com/asrainaldi/Week-2-Challenge/blob/master/Main.sql)
+### [SQL queries here](https://github.com/asrainaldi/Week-2-Challenge/blob/master/Main.sql)
+### [ERD DIagram here](https://github.com/asrainaldi/Week-2-Challenge/blob/master/ERD.PNG)
+
 
 ## What was the challenge?
 ### Week 2 Challenge
